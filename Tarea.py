@@ -39,7 +39,7 @@ class Gato(Animal):
         print("Caminando sigilosamente con 4 patas")
     
     def describeme(self):
-        print(f"Hola, soy un {self.especie} de {self.edad} anos con pelaje {self.color_pelaje}")
+        print(f"Hola, soy un {self.especie} de {self.edad} años con pelaje {self.color_pelaje}")
     
     def ronronear(self):
         print("Prrrrr... prrrrr... (ronroneando felizmente)")
@@ -61,7 +61,7 @@ class Pez(Animal):
         print("Nadando suavemente moviendo sus aletas")
     
     def describeme(self):
-        print(f"Hola, soy un {self.especie} de {self.edad} anos que vive en agua {self.tipo_agua}")
+        print(f"Hola, soy un {self.especie} de {self.edad} años que vive en agua {self.tipo_agua}")
     
     def nadar_rapido(self):
         print("Nadando rapidamente para escapar del depredador!")
@@ -83,7 +83,7 @@ class Mapache(Animal):
         print("Caminando con sus patas habilidosas y trepando arboles")
     
     def describeme(self):
-        print(f"Hola, soy un {self.especie} de {self.edad} anos que vive en {self.habitat}")
+        print(f"Hola, soy un {self.especie} de {self.edad} años que vive en {self.habitat}")
     
     def lavar_comida(self):
         print("Lavando mi comida en el agua antes de comerla!")
@@ -132,7 +132,7 @@ def main():
     print("=" * 60)
     print(" DEMOSTRACION DE POLIMORFISMO")
     print("=" * 60)
-    print("\n(El mismo metodo produce diferentes comportamientos)")
+    print("\n(mismo metodo, diferente comportamiento.)")
     esperar_enter()
     
     for i, animal in enumerate(animales, 1):
@@ -222,4 +222,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
